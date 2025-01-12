@@ -52,7 +52,7 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind CSS", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    link: "https://roll-dice-game-flame.vercel.app/",
+    link: "https://roll-dice-ten.vercel.app/",
     title: "Roll Dice Game",
     image: project2,
     description:
