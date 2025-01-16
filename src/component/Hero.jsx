@@ -67,7 +67,7 @@ const Hero = () => {
                         </motion.p>
                         <motion.a
                             variants={childVar}
-                            href="https://drive.google.com/file/d/1Vu2uIH_18FK1t8T9mYzPGzg97jnHTwa7/view?usp=sharing"
+                            href="https://drive.google.com/file/d/15VWrsELAkYszpiNdhL69VHZQByXjQZFx/view?usp=sharing"
                             target="blank"
                             rel="noopener noreferrer"
                             download
