@@ -75,6 +75,14 @@ export const PROJECTS = [
       "A user-friendly contact page designed to help visitors easily get in touch. Features a clean layout with a form for sending messages and additional contact details.",
     technologies: ["HTML", "Tailwind CSS", "React.js"],
   },
+  {
+    link: "https://thief-detect.vercel.app/",
+    title: "Thief Detection",
+    image: project3,
+    description:
+      "Developed a system to detect and prevent theft using Next.js(React Framework),coco-ssd(Object detection model),react-webcam(NPM package).Achieved high accuracy in object detection and real-time anomaly detection.",
+    technologies: ["HTML", "CSS", "Next.js", "Tailwind CSS", "JavaScript"],
+  },
 ];
 
 export const CONTACT = {
