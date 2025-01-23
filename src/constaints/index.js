@@ -48,7 +48,7 @@ export const PROJECTS = [
     title: "Employee Management System (EMS)",
     image: project1,
     description:
-      "A streamlined solution to manage employee data, track attendance, and organize tasks efficiently, enhancing overall workforce productivity.",
+      "A streamlined solution to manage employee data, track attendance, and organize tasks efficiently, enhancing overall workforce productivity and use for admin dashboard : admin@me.com, User Dashboard : e@e.com and Password : 123",
     technologies: ["HTML", "Tailwind CSS", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
