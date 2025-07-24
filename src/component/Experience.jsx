@@ -56,7 +56,7 @@ const Experience = () => {
         transition={{ duration: 0.6 }}
         className="text-center text-4xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text drop-shadow-lg"
       >
-        🎓 Education & Training
+         Education & Training
       </motion.h2>
 
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
