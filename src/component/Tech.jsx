@@ -114,101 +114,28 @@
 // };
 
 // export default Tech;
-// import {
-//   FaJava,
-//   FaNode,
-//   FaGithub,
-//   FaLinkedin,
-// } from "react-icons/fa";
-// import { RiReactjsLine, RiDatabase2Line } from "react-icons/ri";
-// import { SiExpress, SiJavascript, SiMongodb, SiNextdotjs } from "react-icons/si";
-// import { TbBrandRedux } from "react-icons/tb";
-// import { BiBarChartAlt2 } from "react-icons/bi";
-// import { motion } from "framer-motion";
-
-// const techIcons = [
-//   { icon: <RiReactjsLine className="text-cyan-400" />, duration: 2.5 },
-//   { icon: <SiNextdotjs />, duration: 3 },
-//   { icon: <SiJavascript className="text-yellow-400" />, duration: 2 },
-//   { icon: <SiMongodb className="text-green-400" />, duration: 3 },
-//   { icon: <FaNode className="text-green-500" />, duration: 2.5 },
-//   { icon: <SiExpress className="text-sky-500" />, duration: 3 },
-//   { icon: <FaJava className="text-red-400" />, duration: 2.5 },
-//   { icon: <BiBarChartAlt2 className="text-yellow-300" />, duration: 2 },
-//   { icon: <RiDatabase2Line className="text-indigo-400" />, duration: 2.5 },
-// ];
-
-// const iconVar = (duration) => ({
-//   initial: { y: -10 },
-//   animate: {
-//     y: [10, -10],
-//     transition: {
-//       duration,
-//       ease: "linear",
-//       repeat: Infinity,
-//       repeatType: "reverse",
-//     },
-//   },
-// });
-
-// const Tech = () => {
-//   return (
-//     <div className="pb-24 px-6 md:px-12">
-//       <motion.h2
-//         whileInView={{ opacity: 1, y: 0 }}
-//         initial={{ opacity: 0, y: -100 }}
-//         transition={{ duration: 1.5 }}
-//         className="my-20 text-center text-4xl font-bold text-white"
-//       >
-//         🚀 Technologies I Use
-//       </motion.h2>
-
-//       <motion.div
-//         whileInView={{ opacity: 1, x: 0 }}
-//         initial={{ opacity: 0, x: -100 }}
-//         transition={{ duration: 1.5 }}
-//         className="flex flex-wrap items-center justify-center gap-6"
-//       >
-//         {techIcons.map((tech, index) => (
-//           <motion.div
-//             key={index}
-//             initial="initial"
-//             animate="animate"
-//             variants={iconVar(tech.duration)}
-//             whileHover={{
-//               scale: 1.1,
-//               rotateX: 10,
-//               rotateY: -10,
-//               transition: { type: "spring", stiffness: 300 },
-//             }}
-//             className="p-5 bg-[#1e293b] rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 ease-in-out"
-//             style={{ perspective: "800px" }}
-//           >
-//             <div className="text-5xl md:text-6xl">{tech.icon}</div>
-//           </motion.div>
-//         ))}
-//       </motion.div>
-//     </div>
-//   );
-// };
-
-// export default Tech;
-import { FaJava, FaNode } from "react-icons/fa";
+import {
+  FaJava,
+  FaNode,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 import { RiReactjsLine, RiDatabase2Line } from "react-icons/ri";
 import { SiExpress, SiJavascript, SiMongodb, SiNextdotjs } from "react-icons/si";
-import { motion } from "framer-motion";
+import { TbBrandRedux } from "react-icons/tb";
 import { BiBarChartAlt2 } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 const techIcons = [
-  { icon: <RiReactjsLine className="text-cyan-400" />, name: "ReactJS", duration: 2.5 },
-  { icon: <SiNextdotjs />, name: "Next.js", duration: 3 },
-  { icon: <SiJavascript className="text-yellow-400" />, name: "JavaScript", duration: 2 },
-  { icon: <SiMongodb className="text-green-400" />, name: "MongoDB", duration: 3 },
-  { icon: <FaNode className="text-green-500" />, name: "Node.js", duration: 2.5 },
-  { icon: <SiExpress className="text-sky-500" />, name: "Express", duration: 3 },
-  { icon: <FaJava className="text-red-500" />, name: "Java", duration: 2.5 },
-  { icon: <BiBarChartAlt2 className="text-yellow-300" />, name: "Power BI", duration: 2 },
-  { icon: <RiDatabase2Line className="text-indigo-400" />, name: "SQL", duration: 2.5 },
+  { icon: <RiReactjsLine className="text-cyan-400" />, duration: 2.5 },
+  { icon: <SiNextdotjs />, duration: 3 },
+  { icon: <SiJavascript className="text-yellow-400" />, duration: 2 },
+  { icon: <SiMongodb className="text-green-400" />, duration: 3 },
+  { icon: <FaNode className="text-green-500" />, duration: 2.5 },
+  { icon: <SiExpress className="text-sky-500" />, duration: 3 },
+  { icon: <FaJava className="text-red-400" />, duration: 2.5 },
+  { icon: <BiBarChartAlt2 className="text-yellow-300" />, duration: 2 },
+  { icon: <RiDatabase2Line className="text-indigo-400" />, duration: 2.5 },
 ];
 
 const iconVar = (duration) => ({
@@ -226,7 +153,7 @@ const iconVar = (duration) => ({
 
 const Tech = () => {
   return (
-    <div className="pb-24 px-6 md:px-12 bg-gradient-to-b from-[#0f172a] to-[#1e293b]">
+    <div className="pb-24 px-6 md:px-12">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -240,7 +167,7 @@ const Tech = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 place-items-center"
+        className="flex flex-wrap items-center justify-center gap-6"
       >
         {techIcons.map((tech, index) => (
           <motion.div
@@ -254,11 +181,10 @@ const Tech = () => {
               rotateY: -10,
               transition: { type: "spring", stiffness: 300 },
             }}
-            className="p-5 bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 ease-in-out text-center w-28 md:w-32"
+            className="p-5 bg-[#1e293b] rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 ease-in-out"
             style={{ perspective: "800px" }}
           >
-            <div className="text-5xl md:text-6xl mb-2">{tech.icon}</div>
-            <div className="text-sm md:text-base text-white font-medium">{tech.name}</div>
+            <div className="text-5xl md:text-6xl">{tech.icon}</div>
           </motion.div>
         ))}
       </motion.div>
@@ -267,4 +193,5 @@ const Tech = () => {
 };
 
 export default Tech;
+
 
