@@ -4,6 +4,8 @@ import { SiExpress, SiJavascript, SiMongodb, SiNextdotjs } from "react-icons/si"
 import { motion } from "framer-motion";
 import { TbBrandRedux } from "react-icons/tb";
 import { BiBarChartAlt2 } from "react-icons/bi";
+import { RiDatabase2Line } from "react-icons/ri";
+
 
 
 const iconVar = (duration) => ({
@@ -98,6 +100,14 @@ const Tech = () => {
                 >
                     <BiBarChartAlt2 className="text-5xl md:text-6xl text-yellow-400" />
                 </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVar(2.5)}
+                    className="p-4"
+                >
+                <RiDatabase2Line className="text-5xl md:text-6xl text-indigo-400" />
+                 </motion.div>
             </motion.div>
         </div>
     );
