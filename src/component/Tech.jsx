@@ -154,15 +154,24 @@ const iconVar = (duration) => ({
 const Tech = () => {
   return (
     <div className="pb-24 px-6 md:px-12">
-      <motion.h2
+{/*       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl font-bold text-white"
       >
         🚀 Technologies I Use
+      </motion.h2> */}
+       <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1 }}
+        className="text-center text-4xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text drop-shadow-lg"
+      >
+        🚀 Things I've Built
       </motion.h2>
 
+      
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
