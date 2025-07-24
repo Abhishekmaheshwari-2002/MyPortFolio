@@ -211,7 +211,7 @@ const Projects = () => {
         🚀 Things I've Built
       </motion.h2>
 
-      <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((project, index) => (
           <motion.div
             key={index}
