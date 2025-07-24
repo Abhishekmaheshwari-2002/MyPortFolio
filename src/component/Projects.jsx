@@ -69,7 +69,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.8 }}
-                className="text-center text-4xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-blue-600 text-transparent bg-clip-text">
+                className="text-center text-4xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-white-600 text-transparent bg-clip-text">
                 Things I've Built
             </motion.h2>
 
