@@ -44,21 +44,29 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    link: "https://ems-brown.vercel.app/",
-    title: "Employee Management System (EMS)",
-    image: project1,
+   {
+    link: "https://hospital-dashboard-eosin.vercel.app/",
+    title: "Advanced Hospital Analytics Dashboard – Power BI Project",
+    image: project3,
     description:
-      "A streamlined solution to manage employee data, track attendance, and organise tasks efficiently, enhancing overall workforce productivity         Use for admin dashboard: admin@me.com, User Dashboard : e@e.com and Password : 123",
-    technologies: ["HTML", "Tailwind CSS", "React.js", "Node.js", "Express.js", "Mongodb"],
+      "An interactive Power BI dashboard delivering key insights into hospital operations — from patient data and finances to inventory and staff performance — all in one unified view for smarter decision-making.",
+    technologies: ["Power BI", "Excel", "SQL", "Power Query"],
   },
   {
     link: "https://roll-dice-ten.vercel.app/",
-    title: "Roll Dice Game",
+    title: "Lucky Roll",
     image: project2,
     description:
-      "Roll Dice Game is an interactive web application that simulates the classic dice-rolling experience. Users can roll virtual dice to generate random outcomes, making it a fun and engaging tool for games or decision-making.",
-    technologies: ["HTML", "Tailwind CSS", "React.js", "JavaScript"],
+      "Lucky Roll is a fun, interactive web app that lets users roll virtual dice for games or quick decisions — simple, random, and engaging.",
+    technologies: ["HTML", "Tailwind CSS", "React.js", "JavaScript","Next.js"],
+  },
+  {
+    link: "https://cut-links.vercel.app/",
+    title: "CutLinks – Minimal URL Shortener",
+    image: project1,
+    description:
+      "Lightning‑fast URL shortening built with Next.js, React & Tailwind—simple, responsive, and fluff‑free.",
+    technologies: ["HTML", "Tailwind CSS", "React.js"],
   },
   {
     link: "https://text-util-sigma.vercel.app/",
@@ -84,14 +92,7 @@ export const PROJECTS = [
       "Developed a system to detect and prevent theft using Next.js(React Framework),coco-ssd(Object detection model), and react-webcam(NPM package).Achieved high accuracy in object detection and real-time anomaly detection.",
     technologies: ["HTML", "CSS", "Next.js", "Tailwind CSS", "JavaScript"],
   },
-   {
-    link: "https://thief-detect.vercel.app/",
-    title: "Thief Detection",
-    image: project3,
-    description:
-      "Developed a system to detect and prevent theft using Next.js(React Framework),coco-ssd(Object detection model), and react-webcam(NPM package).Achieved high accuracy in object detection and real-time anomaly detection.",
-    technologies: ["HTML", "CSS", "Next.js", "Tailwind CSS", "JavaScript"],
-  },
+  
 ];
 
 export const CONTACT = {
