@@ -4,15 +4,17 @@ import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `
-I build dynamic, user-focused web applications using modern technologies like React.js, Next.js, and JavaScript. With a Master's in Computer Science and a strong foundation in HTML, CSS, Java, and OOP, I blend clean code with responsive design to deliver seamless user experiences. I also explore data through Python, Advanced Excel, and Power BI to drive insights and smarter solutions.`;
+// Hey, I’m Abhishek — a Web Developer with a Passion for Clean Code & Smart Solutions
+I bring ideas to life with React, Next.js, and JavaScript, crafting sleek, responsive web apps that put users first. Backed by a Master’s in Computer Science and strong skills in HTML, CSS, Java, and OOP, I turn complex problems into simple, elegant solutions. I also love exploring data with Python, Advanced Excel, and Power BI to drive better decisions.
+`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile Software developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, and Node.js. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2023 - 2025",
     role: "Master of Computer Science and Application (MCA)",
-    company: "8.0 CGPA",
+    company: "",
     description: `Pimpri Chinchwad University, Pune
 `,
     technologies: ["JavaScript", "React.js", "Next.js", "Python"],
@@ -20,7 +22,7 @@ export const EXPERIENCES = [
   {
     year: "2020 - 2023",
     role: "Bachelor of Computer Science and Application (BCA)",
-    company: "80%",
+    company: "",
     description: `Jiwaji University of Gwalior
 `,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
@@ -28,14 +30,14 @@ export const EXPERIENCES = [
   {
     year: "2018 - 2019",
     role: "High Secondary",
-    company: "75%",
+    company: "",
     description: `MP High Secondary Board `,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
     year: "2016 - 2017",
     role: "High School",
-    company: "82%",
+    company: "",
     description: `MP High School Board`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
