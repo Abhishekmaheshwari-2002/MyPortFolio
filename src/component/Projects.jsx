@@ -75,7 +75,7 @@ const Projects = () => {
         transition={{ duration: 1 }}
         className="text-center text-4xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text drop-shadow-lg"
       >
-        🚀 Things I've Built
+         Things I've Built
       </motion.h2>
 
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
