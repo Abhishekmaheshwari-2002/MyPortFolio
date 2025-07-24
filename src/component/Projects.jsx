@@ -201,7 +201,8 @@ import { IoLink } from "react-icons/io5";
 
 const Projects = () => {
   return (
-    <div className="pb-24 px-6 bg-[#0a0a0a] text-white">
+    // <div className="pb-24 px-6 bg-[#0a0a0a] text-white">
+       <div className="pb-24 px-6 bg-[#0a0a0a] text-white">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
