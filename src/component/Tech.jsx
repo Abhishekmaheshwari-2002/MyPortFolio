@@ -168,7 +168,7 @@ const Tech = () => {
         transition={{ duration: 1 }}
         className="text-center text-4xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text drop-shadow-lg"
       >
-        🚀 Things I've Built
+        Technologies I Use
       </motion.h2>
 
       
