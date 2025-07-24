@@ -27,7 +27,7 @@ const Experience = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4 flex flex-col justify-center">
                             <h3 className="mb-2 font-semibold text-lg md:text-xl">
-                                {experience.role} -{" "}
+                                {experience.role} {" "}
                                 <span className="text-sm text-stone-500">
                                     {experience.company}
                                 </span>
