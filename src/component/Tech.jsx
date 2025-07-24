@@ -3,6 +3,8 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiJavascript, SiMongodb, SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 import { TbBrandRedux } from "react-icons/tb";
+import { BiBarChartAlt2 } from "react-icons/bi";
+
 
 const iconVar = (duration) => ({
     initial: { y: -10 },
@@ -94,7 +96,7 @@ const Tech = () => {
                     variants={iconVar(2)}
                     className="p-4"
                 >
-                    <TbBrandRedux className="text-6xl md:text-7xl text-white-500" />
+                    <BiBarChartAlt2 className="text-5xl md:text-6xl text-yellow-400" />
                 </motion.div>
             </motion.div>
         </div>
