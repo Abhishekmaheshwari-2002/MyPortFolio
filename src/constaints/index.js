@@ -4,7 +4,6 @@ import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `
-// Hey, I’m Abhishek — a Web Developer with a Passion for Clean Code & Smart Solutions
 I bring ideas to life with React, Next.js, and JavaScript, crafting sleek, responsive web apps that put users first. Backed by a Master’s in Computer Science and strong skills in HTML, CSS, Java, and OOP, I turn complex problems into simple, elegant solutions. I also love exploring data with Python, Advanced Excel, and Power BI to drive better decisions.
 `;
 
