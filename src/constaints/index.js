@@ -84,6 +84,14 @@ export const PROJECTS = [
       "Developed a system to detect and prevent theft using Next.js(React Framework),coco-ssd(Object detection model), and react-webcam(NPM package).Achieved high accuracy in object detection and real-time anomaly detection.",
     technologies: ["HTML", "CSS", "Next.js", "Tailwind CSS", "JavaScript"],
   },
+   {
+    link: "https://thief-detect.vercel.app/",
+    title: "Thief Detection",
+    image: project3,
+    description:
+      "Developed a system to detect and prevent theft using Next.js(React Framework),coco-ssd(Object detection model), and react-webcam(NPM package).Achieved high accuracy in object detection and real-time anomaly detection.",
+    technologies: ["HTML", "CSS", "Next.js", "Tailwind CSS", "JavaScript"],
+  },
 ];
 
 export const CONTACT = {
