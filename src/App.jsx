@@ -4,7 +4,8 @@ import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
 import Projects from "./component/Projects";
 import Tech from "./component/Tech";
-import { Analytics } from "@vercel/analytics/next";
+
+
 
 
 function App() {
