@@ -144,7 +144,6 @@ const Hero = () => {
 
           <motion.a
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
-{/*             href="https://drive.google.com/file/d/1YZON7v8T-z2KVq6hC-SJ9r0m7eGlMl3o/view?usp=drive_link" */}
             href="public/Abhishek-Maheshwari-Resume-1.pdf"
             target="_blank"
             rel="noopener noreferrer"
